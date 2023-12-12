@@ -2,6 +2,9 @@ import sys
 from unittest import defaultTestLoader, TestResult
 
 
+
+
+
 def get_file_text(path):
     """ Returns file text by path"""
     file_io = open(path, "r")
